@@ -61,7 +61,7 @@ pip install numpy pandas scikit-learn matplotlib
 ## 🛠️ Tech Stack
 
 - 🛡️ **Programming Language:** Python
--🧮 **Core Libraries:** numpy, pandas
+- 🧮 **Core Libraries:** numpy, pandas
 - 🤖 **Machine Learning:** scikit-learn
 - 📈 **Visualization:** matplotlib
 - 🗃️ **Dataset:** Student Performance (CSV format)
