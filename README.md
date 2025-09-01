@@ -39,8 +39,7 @@ pip install numpy pandas scikit-learn matplotlib
 - 🌐 **Traveling Salesman Problem (TSP) Optimization:**  
 - ▶️ Run `TSP.py` to compare SA, GA, and PSO for finding the shortest route among randomly generated cities.
 - 📉 Outputs: Shortest routes, distances, timing stats, and graphs visualizing paths and convergence curves.
-- 🛠️ **Parameter Customization:**  
-- ⚙️ Tweak script parameters as desired, such as city count or iteration numbers, for comparison experiments.
+- 🛠️ **Parameter Customization:** Tweak script parameters as desired, such as city count or iteration numbers, for comparison experiments.
 
 ## 📝 Notes
 
