@@ -104,7 +104,7 @@ pip install Flask==3.0.0 Flask-CORS==4.0.0 pycryptodome==3.19.0
 ## 🔗 Links
 
 - 🌍 [**Live Demo**](https://cisminiproject.vercel.app/)
-- 📊 [**CIS PPT Presentation**](https://www.figma.com/slides/WOD8hk2AhMToP0iGTlwUup/Modern-Futuristic-Technology-Deck?node-id=1-510&t=AuWXOnxGMn4HAaMH-1)
+- 📊 [**CIS PPT Presentation**](https://www.figma.com/deck/WOD8hk2AhMToP0iGTlwUup)
 
 ## 🛠️ Tech Stack
 
