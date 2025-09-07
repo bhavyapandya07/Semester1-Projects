@@ -1,1 +1,0 @@
-pip install pandas scikit-learn flask flask-cors pycryptodome numpy matplotlib torch
