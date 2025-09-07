@@ -157,3 +157,86 @@ Run with [Jupyter Notebook](https://jupyter.org/) or [Google Colab](https://cola
 - **Data:** Myntra product CSV
 - **Notebooks:** Jupyter (.ipynb)
 - **ML Techniques:** TF-IDF, Label Encoding, MinMax Scaling, Cosine Similarity
+
+████████████████████████████████████████████████████████████████████████
+
+# 🎮 Tic-Tac-Toe AI Selector - Multi-Algorithm Comparison
+
+This project is a Flask-based web application that implements three different AI algorithms for playing Tic-Tac-Toe: **Q-Learning**, **Policy Gradient Neural Network**, and **Minimax**. It provides an interactive web interface where users can play against any of the three AI opponents and compare their performance in real-time.
+
+## ✨ Features
+
+- 🧠 **Three AI Algorithms**: Q-Learning (reinforcement learning), Policy Gradient (deep reinforcement learning), and Minimax (classical game theory)
+- 🎯 **Interactive Web UI** with responsive grid-based game board and smooth animations  
+- 🔄 **Real-time AI Selection** - switch between different AI opponents mid-game
+- 💾 **Persistent Learning** - Q-Learning and Policy Gradient models save/load their training progress
+- 🎨 **Modern Design** with hover effects, winner highlighting, and visual feedback
+- ⚡ **Auto-training** - models train automatically if no saved state exists
+- 🎲 **Smart Move Selection** with exploration strategies for learning-based AIs
+
+### Q-Learning
+- **Type**: Tabular reinforcement learning
+- **Strategy**: Learns optimal moves through trial-and-error gameplay
+- **Storage**: State-action values saved in `qtable.pkl`
+- **Parameters**: ε=0.1 (exploration), α=0.5 (learning rate), γ=0.9 (discount)
+
+### Policy Gradient
+- **Type**: Deep reinforcement learning with neural network
+- **Architecture**: 9→128→9 fully connected layers with ReLU activation
+- **Strategy**: Learns probability distribution over moves
+- **Storage**: Model weights saved in `policy.pth`
+
+### Minimax  
+- **Type**: Classical game theory algorithm
+- **Strategy**: Explores all possible game states to find optimal moves
+- **Performance**: Unbeatable when playing optimally
+- **Computation**: Real-time tree search with perfect information
+
+## 📦 Installation
+```
+pip install Flask==2.3.3 torch==2.0.1 torchvision==0.15.2
+```
+
+## 🚀 Usage
+
+1. 🌐 **Start the server**: Run `python app.py` and open `http://localhost:5000`
+2. 🎯 **Select AI opponent** from the dropdown menu (Q-Learning, Policy Gradient, or Minimax)
+3. 🎮 **Click any cell** to make your move as 'X' - AI plays as 'O'  
+4. 🏆 **Game results** are displayed with winner highlighting and victory animations
+5. 🔄 **Reset anytime** using the reset button to start a fresh game
+6. 🔀 **Switch AIs** mid-game to compare different strategies
+
+## 🎯 Training Details
+
+- **Q-Learning**: 50,000 episodes of self-play with ε-greedy exploration
+- **Policy Gradient**: 50,000 episodes using REINFORCE algorithm with baseline normalization
+- **Auto-initialization**: Models train automatically on first run if no saved files exist
+- **Progress tracking**: Real-time training progress displayed in console
+
+## 📝 Notes
+
+- 🧠 **Learning AIs** improve over time and may make suboptimal moves during exploration
+- 🎯 **Minimax** provides the strongest challenge as it never makes mistakes
+- 💾 **Training data** persists between sessions for continuous learning
+- ⚡ **Model loading** is automatic - no manual training required after initial setup
+
+## 🛠️ Tech Stack
+
+- **Backend**: Flask 2.3.3
+- **AI/ML**: PyTorch 2.0.1, NumPy
+- **Frontend**: Vanilla JavaScript, CSS Grid, HTML5
+- **Storage**: Pickle (Q-table), PyTorch state dict (neural network)
+
+## 📊 Algorithm Comparison
+
+| Algorithm | Strength | Learning | Speed | Memory |
+|-----------|----------|----------|-------|---------|
+| **Minimax** | Perfect | None | Fast | Low |
+| **Q-Learning** | High | Tabular | Medium | Medium |
+| **Policy Gradient** | Variable | Neural | Slow | High |
+
+## 🔗 Links
+
+- 📊 [**Project Presentation**:](https://www.figma.com/deck/sRf3uZnt4csFStkcyE1Ov4/ML-PPT?node-id=1-305&t=zvKJH64xZKbRC9ST-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+
+
