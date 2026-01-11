@@ -44,6 +44,9 @@ pip install Flask==3.0.0 Flask-CORS==4.0.0 pycryptodome==3.19.0
 - **Backend**: Flask 3.0.0
 - **Cryptography**: PyCryptodome 3.19.0
 
+<img width="858" height="706" alt="image" src="https://github.com/user-attachments/assets/17349ba3-0fc7-49c1-a96c-54a09e204b1a" />
+
+
 ████████████████████████████████████████████████████████████████████████
 
 # 💻 Optimization Algorithms Comparative Project - AOA
@@ -113,6 +116,9 @@ pip install numpy pandas scikit-learn matplotlib
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Security**: RSA-2048 + AES-128-EAX
 
+<img width="1248" height="698" alt="image" src="https://github.com/user-attachments/assets/83d26916-ce2b-49b7-85f4-2c1630ee91eb" />
+
+
 ████████████████████████████████████████████████████████████████████████
 
 # 🛍️ AMT Recommendation System in Data Mining
@@ -157,6 +163,8 @@ Run with [Jupyter Notebook](https://jupyter.org/) or [Google Colab](https://cola
 - **Data:** Myntra product CSV
 - **Notebooks:** Jupyter (.ipynb)
 - **ML Techniques:** TF-IDF, Label Encoding, MinMax Scaling, Cosine Similarity
+
+<img width="682" height="441" alt="image" src="https://github.com/user-attachments/assets/490ec213-1eaa-4fa0-a7c3-13fd0f62ca38" />
 
 ████████████████████████████████████████████████████████████████████████
 
@@ -238,5 +246,8 @@ pip install Flask==2.3.3 torch==2.0.1 torchvision==0.15.2
 ## 🔗 Links
 
 - 📊 [**Project Presentation**:](https://www.figma.com/deck/sRf3uZnt4csFStkcyE1Ov4/ML-PPT?node-id=1-305&t=zvKJH64xZKbRC9ST-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+
+<img width="476" height="688" alt="image" src="https://github.com/user-attachments/assets/57600c87-b5fb-4b39-9905-088c2a33c200" />
+
 
 
