@@ -36,7 +36,6 @@ pip install Flask==3.0.0 Flask-CORS==4.0.0 pycryptodome==3.19.0
 
 ## 🔗 Links
 
-- 🌍 [**Live Demo**](https://cisminiproject.vercel.app/)
 - 📊 [**CIS PPT Presentation**](https://www.figma.com/deck/WOD8hk2AhMToP0iGTlwUup)
 
 ## 🛠️ Tech Stack
